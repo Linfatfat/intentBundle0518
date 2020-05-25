@@ -26,7 +26,7 @@ public class MainActivity extends AppCompatActivity {
         Bundle bundle = new Bundle();
 
         bundle.putString("HEIGHT",edtHeight.getText().toString());
-        bundle.putString("WEIGHT",edtHeight.getText().toString());
+        bundle.putString("WEIGHT",edtWeight.getText().toString());
 
         intent.putExtras(bundle);
         startActivity(intent);
